@@ -47,9 +47,6 @@ textarea {
     padding-left: 30px;
     box-sizing: border-box; /* Ensures padding is included in the total dimensions */
 }
-textarea::placeholder {
-    padding-left: 1px;
-}
 #sendBtn {
     border: 0;
     border-radius: 50%;
