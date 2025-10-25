@@ -30,12 +30,14 @@ header img {
 iframe {
     height: 442px;
     width: 100%;
+    border: 1px solid black;
 }
 textarea {
     width: 100%;
     border: 1.5px solid grey;
     border-radius: 20px;
     background-color: white;
+    color: black;
     resize: none;
     outline: none;
     font-family: "Poppins", sans-serif;
@@ -53,7 +55,7 @@ textarea::placeholder {
     border-radius: 50%;
     padding-left:13px;
     padding-right: 13px;
-    background-color: black;
+    background: linear-gradient(90deg,#007bff,#add8e6);
     color: white;
     cursor: pointer;
 }
